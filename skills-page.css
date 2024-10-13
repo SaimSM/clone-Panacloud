@@ -1,0 +1,122 @@
+/* Reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .skills-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-section .highlight {
+    color: #75c043;
+  }
+  
+  .skills-section p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .skills-bars {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .skill-bar {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .skill-bar .circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px solid #ddd;
+    position: relative;
+    margin: 0 auto 10px;
+  }
+  
+  .skill-bar p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Custom colors for each circle */
+  #skill1 {
+    border-color: #ffaf1a;
+  }
+  
+  #skill2 {
+    border-color: #ff4b4b;
+  }
+  
+  #skill3 {
+    border-color: #75c043;
+  }
+  
+  #skill4 {
+    border-color: #666666;
+  }
+  
+  /* Project Form */
+  .project-form {
+    background-color: #9ACD32;
+    text-align: center;
+    padding: 60px 0;
+    margin-top: 50px;
+  }
+  
+  .project-form h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .project-form form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .project-form input {
+    padding: 15px;
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .project-form button {
+    padding: 15px 25px;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .project-form button:hover {
+    background-color: #ff7700;
+  }
+  
+  .project-form p {
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+  }
+  
